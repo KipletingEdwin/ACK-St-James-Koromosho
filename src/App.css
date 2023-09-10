@@ -47,13 +47,22 @@
 }
 
 .logo{
-  background-color: green;
+  /* background-color: green; */
   padding: 5px;
 }
 
 .nav-links{
   background-color: orange;
   padding: 10px;
+  margin-left: 55%;
+}
+
+.navbar-links {
+  background-color: red;
+  padding: 10px;
+  margin: 7px;
+  text-decoration: none;
+  color: white;
 }
 
 
