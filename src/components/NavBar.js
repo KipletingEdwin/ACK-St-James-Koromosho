@@ -6,14 +6,14 @@ function NavBar() {
     <div className="navbar"> 
     <div className="logo"> 
     <p> Koro</p>
-    <NavLink to = "/home"><h5> Home </h5></NavLink>
-    <NavLink to = "/about"><h5> About </h5></NavLink>
-    <NavLink to = "/services"><h5> Services </h5></NavLink>
-    <NavLink to = "/downloads"><h5> Downloads </h5></NavLink>
-    <NavLink to = "/events"><h5> Events </h5></NavLink>
-    <NavLink to = "/projects"><h5> Projects </h5></NavLink>
-    <NavLink to = "/offerings"><h5> Offerings </h5></NavLink>
-    <NavLink to = "/contact"><h5> Contact </h5></NavLink>
+    <NavLink to = "/home"> Home</NavLink>
+    <NavLink to = "/about"> About </NavLink>
+    <NavLink to = "/services"> Services </NavLink>
+    <NavLink to = "/downloads"> Downloads </NavLink>
+    <NavLink to = "/events">Events </NavLink>
+    <NavLink to = "/projects"> Projects </NavLink>
+    <NavLink to = "/offerings"> Offerings </NavLink>
+    <NavLink to = "/contact"> Contact </NavLink>
 </div>
     </div>
   
