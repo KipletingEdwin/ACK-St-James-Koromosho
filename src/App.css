@@ -43,15 +43,8 @@
 
 .navbar{
   background-color: yellow;
-}
-
-.logo{
   display: flex;
-
 }
 
-.logo p{
-  background-color: green;
-  padding: 10px;
-}
+
 

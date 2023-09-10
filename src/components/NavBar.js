@@ -6,15 +6,18 @@ function NavBar() {
     <div className="navbar"> 
     <div className="logo"> 
     <p> Koro</p>
-    <NavLink to = "/home"> Home</NavLink>
-    <NavLink to = "/about"> About </NavLink>
-    <NavLink to = "/services"> Services </NavLink>
-    <NavLink to = "/downloads"> Downloads </NavLink>
-    <NavLink to = "/events">Events </NavLink>
-    <NavLink to = "/projects"> Projects </NavLink>
-    <NavLink to = "/offerings"> Offerings </NavLink>
-    <NavLink to = "/contact"> Contact </NavLink>
-</div>
+    </div>
+    <div className="nav-links"> 
+    <NavLink  className= "navbar-links " to = "/home"> Home</NavLink>
+    <NavLink className= "navbar-links " to = "/about"> About </NavLink>
+    <NavLink className= "navbar-links " to = "/services"> Services </NavLink>
+    <NavLink className= "navbar-links " to = "/downloads"> Downloads </NavLink>
+    <NavLink className= "navbar-links " to = "/events">Events </NavLink>
+    <NavLink className= "navbar-links " to = "/projects"> Projects </NavLink>
+    <NavLink className= "navbar-links " to = "/offerings"> Offerings </NavLink>
+    <NavLink className= "navbar-links " to = "/contact"> Contact </NavLink>
+    </div>
+
     </div>
   
   );
