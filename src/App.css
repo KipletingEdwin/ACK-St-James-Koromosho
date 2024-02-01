@@ -22,7 +22,7 @@
 .nav-links{
   /* background-color: orange; */
   padding: 10px;
-  margin-left: 55%;
+  margin-left: 50%;
 }
 
 .navbar-links {
@@ -31,10 +31,12 @@
   margin: 10px;
   text-decoration: none;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-links:hover{
-  background-color: yellow;
+  background-color:white;
+  color: black;
 }
 
 
